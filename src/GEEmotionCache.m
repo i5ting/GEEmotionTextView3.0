@@ -47,7 +47,7 @@
     self = [super init];
     if (self) {
         _emotionDataCache = [NSMutableDictionary new];
-        NSArray* emotionZis = @[@"吃惊",@"亲亲",@"抓狂",@"悲伤"];
+        NSArray* emotionZis = @[@"1微笑",@"亲亲",@"抓狂",@"悲伤"];
         
         GEGifView* tempGifView = [GEGifView new];
         for (NSString* emotionZi in emotionZis) {
